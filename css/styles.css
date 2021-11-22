@@ -695,6 +695,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.01em;
 }
+.modal-form-comment {
+  margin-bottom: 20px;
+}
 .modal-form-wrap {
   display: block;
   position: relative;
@@ -729,6 +732,7 @@ img {
   fill: var(--accent-color);
 }
 .modal-form-message {
+  display: block;
   height: 120px;
   margin-top: 4px;
   padding: 12px 16px;
@@ -756,6 +760,7 @@ img {
   border: 1px solid var(--primary-title-color);
   border-radius: 2px;
   cursor: pointer;
+  transition: border var(--accent-color) var(--timing-function);
 }
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
   background-color: var(--accent-color);
